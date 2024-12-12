@@ -1,0 +1,26 @@
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px; /* 10% de 2500px */
+    height: auto;
+    margin-top: 10px;
+    float: left; /* Esto alinea la imagen a la izquierda */
+    
+}
+.btn-home {
+                background-color: #007BFF; /* Azul */
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 4px;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }

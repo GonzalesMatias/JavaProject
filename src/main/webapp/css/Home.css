@@ -1,0 +1,64 @@
+
+.logo {
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 250px;
+    height: auto;
+}
+.welcome-message {
+    top: 50px;
+    left: 20px;
+    color: #ffffff; /* Texto blanco */
+    font-size: 18px;
+}
+
+.home-container {
+    background-color: rgba(30, 30, 30, 0.90); /* Fondo oscuro del contenedor */
+    top: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100vh; /* Ancho del contenedor */
+    height: 35vh;
+    text-align: center;
+    position: relative;
+}
+
+.home-container h2 {
+    color: #ffffff; /* Texto blanco */
+    margin-bottom: 20px;
+}
+
+
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #007BFF; /* Botón negro */
+    color: #ffffff; /* Letras blancas */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+    background-color: #333333;
+}
+body
+
+* {
+    text-decoration: none;
+
+}
+
+div{
+    text-align: center;
+
+}
+ion-icon {
+    font-size: 30px;
+}

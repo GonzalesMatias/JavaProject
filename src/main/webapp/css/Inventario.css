@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007BFF;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+.table-container {
+    margin: 0 auto;
+    width: 80%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: auto;
+    background-color: white;
+}
+table, th, td {
+    border: 1px solid #000;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #000;
+    white-space: nowrap;
+}
+th {
+    background-color: #00a65a;
+    color: white;
+    position: relative;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: grey;
+}
+.filter-input {
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #000;
+}
+.btn-limpiar, .btn-cerrar-sesion, .btn-home {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn-limpiar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.btn-cerrar-sesion {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.btn-home {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
